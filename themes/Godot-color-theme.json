@@ -36,10 +36,8 @@
 		"editor.selectionHighlightBackground": "#ffffff12",
 		"editorCursor.foreground": "#ffffff",
 		// Godot error and warning colors
-		"editorError.background": "#ff786b4d",
-		"editorWarning.background": "#f5ff6b2a",
-		"editorError.foreground": "#ffffff00",
-		"editorWarning.foreground": "#ffffff00",
+		"editorError.foreground": "#ff786b",
+		"editorWarning.foreground": "#f5ff6b",
 		"list.errorForeground": "#ff786b",
 		"errorForeground": "#ff786b",
 		"problemsErrorIcon.foreground": "#ff786b",
