@@ -8,16 +8,24 @@
 		"titleBar.inactiveBackground": "#363d4a",
 		"tab.activeBackground": "#363d4a",
 		"panel.background": "#363d4a",
+		"list.hoverBackground": "#363d4a",
+		"dropdown.listBackground": "#363d4a",
 		// A litle darker version of the bg #292f39
 		"sideBar.background": "#292f39",
 		"tab.inactiveBackground": "#292f39",
 		"editorGroupHeader.noTabsBackground": "#292f39",
 		"editorGroupHeader.tabsBackground": "#292f39",
 		"statusBar.background": "#292f39",
+		"input.background": "#292f39",
+		"dropdown.background": "#292f39",
+		"toolbar.hoverBackground": "#292f39",
+		"notifications.background": "#292f39",
 		// Base Godot accent color #70bafa
 		// Darker accent color #5993c5 
 		"button.background": "#5993c5",
 		"activityBarBadge.background": "#5993c5",
+		// Even darker accent color #22272f
+		"button.hoverBackground": "#4d7fab",
 		// Debugging colors
 		"statusBar.debuggingBackground": "#364359",
 		// Other colors
@@ -37,6 +45,13 @@
 		"problemsErrorIcon.foreground": "#ff786b",
 		"list.warningForeground": "#f5ff6b",
 		"problemsWarningIcon.foreground": "#f5ff6b",
+		// Bracket colorization
+		"editorBracketHighlight.foreground1": "#ff6b6b",
+		"editorBracketHighlight.foreground2": "#ffe96b",
+		"editorBracketHighlight.foreground3": "#8bff6b",
+		"editorBracketHighlight.foreground4": "#6bffe9",
+		"editorBracketHighlight.foreground5": "#6b7aff",
+		"editorBracketHighlight.foreground6": "#ba6bff",
 	},
 	"tokenColors": [
 		{
@@ -54,6 +69,10 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
+				"meta.function-call.arguments",
+				"meta.indexed-name",
+				"meta.attribute",
+				"entity.name.variable",
 			],
 			"settings": {
 				"foreground": "#cdcfd2"
@@ -63,6 +82,7 @@
 			"name": "Properties",
 			"scope": [
 				"variable.other.property",
+				"variable.other.object.property"
 			],
 			"settings": {
 				"foreground": "#abc9ff"
@@ -116,7 +136,8 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"keyword.operator"
 			],
 			"settings": {
 				"foreground": "#89DDFF"
@@ -136,24 +157,16 @@
 			}
 		},
 		{
-			"name": "Other Variable, String Link",
-			"scope": [
-				"support.other.variable",
-				"string.other.link"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"name": "String, Symbols, Markup Heading",
 			"scope": [
 				"string",
+				"punctuation.definition.string",
+				"punctuation.support.type.property-name",
+				"support.type.property-name",
 				"constant.other.symbol",
 				"constant.other.key",
 				"constant.character",
 				"constant.escape",
-				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
@@ -165,7 +178,9 @@
 		{
 			"name": "Class",
 			"scope": [
-				"entity.name"
+				"entity.name",
+				"entity.other.inherited-class",
+				"keyword.type",
 			],
 			"settings": {
 				"foreground": "#42ffc2"

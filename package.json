@@ -4,7 +4,7 @@
   "description": "Godot Engine inspired theme for Visual Studio Code",
   "publisher": "ryanabx",
   "repository": "https://github.com/ryanabx/godot-vscode-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.83.0"
   },
