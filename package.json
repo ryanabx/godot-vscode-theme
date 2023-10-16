@@ -1,0 +1,21 @@
+{
+  "name": "godot-vscode-theme",
+  "displayName": "godot-vscode-theme",
+  "description": "Godot Engine-inspired theme for Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Godot",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Godot-color-theme.json"
+      }
+    ]
+  }
+}
