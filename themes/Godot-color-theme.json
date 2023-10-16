@@ -37,7 +37,7 @@
 		"editorCursor.foreground": "#ffffff",
 		// Godot error and warning colors
 		"editorError.background": "#ff786b4d",
-		"editorWarning.background": "#f5ff6b4d",
+		"editorWarning.background": "#f5ff6b2a",
 		"editorError.foreground": "#ffffff00",
 		"editorWarning.foreground": "#ffffff00",
 		"list.errorForeground": "#ff786b",
@@ -46,12 +46,12 @@
 		"list.warningForeground": "#f5ff6b",
 		"problemsWarningIcon.foreground": "#f5ff6b",
 		// Bracket colorization
-		"editorBracketHighlight.foreground1": "#ff6b6b",
-		"editorBracketHighlight.foreground2": "#ffe96b",
-		"editorBracketHighlight.foreground3": "#8bff6b",
-		"editorBracketHighlight.foreground4": "#6bffe9",
-		"editorBracketHighlight.foreground5": "#6b7aff",
-		"editorBracketHighlight.foreground6": "#ba6bff",
+		"editorBracketHighlight.foreground1": "#abc9ff",
+		"editorBracketHighlight.foreground2": "#ffe3ab",
+		"editorBracketHighlight.foreground3": "#aeffab",
+		"editorBracketHighlight.foreground4": "#ffabff",
+		"editorBracketHighlight.foreground5": "#ffabae",
+		"editorBracketHighlight.foreground6": "#abfff9",
 	},
 	"tokenColors": [
 		{
@@ -85,7 +85,7 @@
 				"variable.other.object.property"
 			],
 			"settings": {
-				"foreground": "#abc9ff"
+				"foreground": "#bce0ff"
 			}
 		},
 		{
@@ -140,7 +140,7 @@
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#abc9ff"
 			}
 		},
 		{
@@ -163,6 +163,7 @@
 				"punctuation.definition.string",
 				"punctuation.support.type.property-name",
 				"support.type.property-name",
+				"storage.type.string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"constant.character",
