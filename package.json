@@ -1,7 +1,9 @@
 {
   "name": "godot-vscode-theme",
   "displayName": "godot-vscode-theme",
-  "description": "Godot Engine-inspired theme for Visual Studio Code",
+  "description": "Godot Engine inspired theme for Visual Studio Code",
+  "publisher": "ryanabx",
+  "repository": "https://github.com/ryanabx/godot-vscode-theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.83.0"
