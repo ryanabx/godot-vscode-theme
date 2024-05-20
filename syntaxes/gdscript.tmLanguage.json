@@ -4,7 +4,8 @@
 	"patterns": [
 	  {"include": "#comment" },
 	  {"include": "#comment_double" },
-	  {"include": "#class_name" }
+	  {"include": "#class_name" },
+	  {"include": "#global_keywords" }
 	],
 	"repository": {
 		"comment": {
@@ -24,6 +25,10 @@
 				"1": { "name": "def.entity.name.type.class.gdscript" },
 				"2": { "name": "class.other.gdscript" }
 			}
+		},
+		"global_keywords": {
+			"match": "\\b(?:preload)\\b",
+			"name": "meta.global-method"
 		}
 	}
   }
