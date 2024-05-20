@@ -329,7 +329,15 @@
 			"settings": {
 				"foreground": "#63c259"
 			}
+		},
+		{
+			"name": "Double comment color",
+			"scope": [
+				"comment.line.double-number-sign.gdscript"
+			],
+			"settings": {
+				"foreground": "#7e94aa"
+			}
 		}
-		
 	]
 }
