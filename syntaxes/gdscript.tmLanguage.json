@@ -1,0 +1,29 @@
+{
+	"injectionSelector": "L:source.gdscript",
+	"scopeName": "double-comment.injection",
+	"patterns": [
+	  {"include": "#comment" },
+	  {"include": "#comment_double" },
+	  {"include": "#class_name" }
+	],
+	"repository": {
+		"comment": {
+			"begin": "#(?!#)",
+			"end": "$",
+			"name": "comment.line.number-sign.gdscript",
+			"beginCaptures": { "1": { "name": "punctuation.definition.comment.number-sign.gdscript" } }
+		},
+		"comment_double": {
+			"name": "comment.line.double-number-sign.gdscript",
+			"begin": "##",
+			"end": "$"
+		},
+		"class_name": {
+			"match": "(?<=class_name)\\s+([a-zA-Z_]\\w*(\\.([a-zA-Z_]\\w*))?)",
+			"captures": {
+				"1": { "name": "def.entity.name.type.class.gdscript" },
+				"2": { "name": "class.other.gdscript" }
+			}
+		}
+	}
+  }

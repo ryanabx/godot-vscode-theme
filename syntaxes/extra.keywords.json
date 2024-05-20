@@ -1,0 +1,18 @@
+{
+	"injectionSelector": "L:source.gdscript -comment.line -string.quoted.gdscript",
+	"scopeName": "extra-keywords.injection",
+	"patterns": [
+		{"include": "#constant_fix" },
+		{"include": "#void_fix" }
+	],
+	"repository": {
+		"constant_fix": {
+			"match": "\\b(?:true|false|null|PI)\\b",
+			"name": "constant.language.words.gdscript"
+		},
+		"void_fix": {
+			"match": "\\b(?:void)\\b",
+			"name": "meta.void"
+		}
+	}
+  }

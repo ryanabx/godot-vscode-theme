@@ -1,0 +1,13 @@
+{
+	"injectionSelector": "L:meta.function-call",
+	"scopeName": "global-keywords.injection",
+	"patterns": [
+		{"include": "#global_fix" }
+	],
+	"repository": {
+		"global_fix": {
+			"match": "\\b(?:print|printt|print_rich|print_err)\\b",
+			"name": "meta.function-global.gdscript"
+		}
+	}
+  }
