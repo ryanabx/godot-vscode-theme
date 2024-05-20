@@ -29,7 +29,7 @@
 		// Debugging colors
 		"statusBar.debuggingBackground": "#364359",
 		// Other colors
-		"editor.background": "#1d2229",
+		"editor.background": "#252b34",
 		"editor.foreground": "#cdcfd2",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"editor.lineHighlightBackground": "#ffffff12",
@@ -64,7 +64,7 @@
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Variables, Text Color, Godot-Text Color",
 			"scope": [
 				"variable",
 				"meta.function-call.arguments",
@@ -77,7 +77,7 @@
 			}
 		},
 		{
-			"name": "Properties",
+			"name": "Properties, Godot-Member Variable Color",
 			"scope": [
 				"variable.other.property",
 				"variable.other.object.property"
@@ -87,7 +87,7 @@
 			}
 		},
 		{
-			"name": "Invalid",
+			"name": "Invalid, Godot-Breakpoint Color",
 			"scope": [
 				"invalid",
 				"invalid.illegal"
@@ -97,7 +97,7 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Keyword, Storage, Godot-Keywords Color",
 			"scope": [
 				"keyword",
 				"keyword.control",
@@ -114,7 +114,7 @@
 			}
 		},
 		{
-			"name": "Number",
+			"name": "Godot-Number Color",
 			"scope": [
 				"constant.numeric"
 			],
@@ -123,7 +123,7 @@
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Operator, Misc, Godot-Symbol Color",
 			"scope": [
 				"constant.other.color",
 				"punctuation",
@@ -143,14 +143,13 @@
 			}
 		},
 		{
-			"name": "Functions",
+			"name": "Functions, Member Color, Godot-Function Color",
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method",
-				"support.function",
 				"support.function.any-method"
 			],
 			"settings": {
@@ -158,7 +157,7 @@
 			}
 		},
 		{
-			"name": "String, Symbols, Markup Heading",
+			"name": "String, Symbols, Markup Heading, Godot-String Color",
 			"scope": [
 				"string",
 				"punctuation.definition.string",
@@ -178,7 +177,7 @@
 			}
 		},
 		{
-			"name": "Class",
+			"name": "Class, Godot-Base Type Color",
 			"scope": [
 				"entity.name",
 				"entity.other.inherited-class",
@@ -194,7 +193,7 @@
 			}
 		},
 		{
-			"name": "Builtin Classes, Engine Type Color",
+			"name": "Builtin Classes, Godot-Engine Type Color",
 			"scope": [
 				"entity.name.class.builtin",
 				"support.type",
@@ -244,6 +243,8 @@
 				"foreground": "#82AAFF"
 			}
 		},
+
+
 		{
 			"name": "Comment keywords WARNING, TOOD/FIXME",
 			"scope": [
@@ -272,16 +273,16 @@
 			}
 		},
 		{
-			"name": "Keywords, Control Flow Keyword Color",
+			"name": "Keywords, Godot-Control Flow Keyword Color",
 			"scope": [
-				"keyword.control",
+				"keyword.control.flow",
 			],
 			"settings": {
 				"foreground": "#ff8ccc"
 			}
 		},
 		{
-			"name": "Function definition",
+			"name": "Godot-Function Definition Color",
 			"scope": [
 				"entity.name.function.gdscript"
 			],
@@ -290,13 +291,45 @@
 			}
 		},
 		{
-			"name": "Annotation Color,  @ keyword",
+			"name": "Godot-Annotation Color,  @ keyword",
 			"scope": [
 				"entity.name.function.decorator.gdscript",
 			],
 			"settings": {
 				"foreground": "#ffb373"
 			}
+		},
+		{
+			"name": "Loose constant, enum classname, class constants",
+			"scope": [
+				"constant.language.gdscript",
+			],
+			"settings": {
+				"foreground": "#e7e7e9"
+			}
+		},
+		{
+			"name": "Godot-Global Function Color",
+			"scope": [
+				"meta.global-method",
+				"meta.keyword.language.gdscript",
+				"meta.function-global.gdscript"
+			],
+			"settings": {
+				"foreground": "#a3a3f5"
+			}
+		},
+		{
+			"name": "Godot-Global Function Color",
+			"scope": [
+				"meta.literal.nodepath.gdscript constant.character.escape.gdscript",
+				"meta.literal.nodepath.gdscript keyword.control.flow.gdscript",
+				"extra.keyword.language.gdscript"
+			],
+			"settings": {
+				"foreground": "#63c259"
+			}
 		}
+		
 	]
 }

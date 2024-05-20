@@ -14,9 +14,36 @@
   "contributes": {
     "themes": [
       {
+        "label": "Godot 4",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Godot-4-color-theme.json"
+      },
+      {
         "label": "Godot",
         "uiTheme": "vs-dark",
         "path": "./themes/Godot-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "path": "./syntaxes/gdscript.tmLanguage.json",
+        "scopeName": "double-comment.injection",
+        "injectTo": ["source.gdscript"]
+      },
+      {
+        "path": "./syntaxes/comment.keywords.json",
+        "scopeName": "comment-keywords.injection",
+        "injectTo": ["source.gdscript"]
+      },
+      {
+        "path": "./syntaxes/extra.keywords.json",
+        "scopeName": "extra-keywords.injection",
+        "injectTo": ["source.gdscript"]
+      },
+      {
+        "path": "./syntaxes/global.keywords.json",
+        "scopeName": "global-keywords.injection",
+        "injectTo": ["source.gdscript"]
       }
     ]
   }

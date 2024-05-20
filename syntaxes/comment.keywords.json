@@ -1,0 +1,23 @@
+{
+	"injectionSelector": "L:comment.line",
+	"scopeName": "comment-keywords.injection",
+	"patterns": [
+	  {"include": "#warning_keywords" },
+	  {"include": "#critical_keywords" },
+	  {"include": "#notice_keywords" }
+	],
+	"repository": {
+		"warning_keywords": {
+			"name": "comment.keywords.warnings",
+			"match": "BUG|DEPRECATED|FIXME|HACK|TASK|TBD|TODO|WARNING"
+		},
+		"critical_keywords": {
+			"name": "comment.keywords.critical",
+			"match": "ALERT|ATTENTION|CAUTION|CRITICAL|DANGER|SECURITY"
+		},
+		"notice_keywords": {
+			"name": "comment.keywords.notices",
+			"match": "INFO|NOTE|NOTICE|TEST|TESTING"
+		}
+	}
+  }
