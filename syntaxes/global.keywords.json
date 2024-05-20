@@ -6,7 +6,7 @@
 	],
 	"repository": {
 		"global_fix": {
-			"match": "\\b(?:print|printt|print_rich|print_err)\\b",
+			"match": "\\b(?:print|printt|print_rich|printerr)\\b",
 			"name": "meta.function-global.gdscript"
 		}
 	}
