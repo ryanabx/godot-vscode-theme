@@ -1,5 +1,5 @@
 {
-	"injectionSelector": "L:source.gdscript",
+	"injectionSelector": "L:source.gdscript -string",
 	"scopeName": "double-comment.injection",
 	"patterns": [
 	  {"include": "#comment" },
