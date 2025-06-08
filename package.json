@@ -22,6 +22,11 @@
         "label": "Godot",
         "uiTheme": "vs-dark",
         "path": "./themes/Godot-color-theme.json"
+      },
+      {
+        "label": "Godot 4 Solarized Light",
+        "uiTheme": "vs",
+        "path": "./themes/Godot-4-Solarized-Light-color-theme.json"
       }
     ],
     "grammars": [
